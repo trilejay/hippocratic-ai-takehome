@@ -1,7 +1,8 @@
 # Hippocratic AI Bedtime Story Generator
 
-This project generates safe, calming bedtime stories for children ages 5–10.  
-It uses an LLM storyteller + an LLM judge to ensure quality, emotional clarity, safety, and a proper story arc.
+This Python script generates bedtime stories for children ages 5–10.  
+It uses an LLM storyteller + an LLM judge to generate the stories based off given requirements.
+
 ## Instructions to Run
 Create a `.env` file with:
 
@@ -17,12 +18,11 @@ Run main.py
   - Emotionally wholesome tone
   - 3-act story structure (Setup → Rising Action → Resolution)
   - Character motivations and emotional depth
-  - Calming bedtime pacing
   - No fear, violence, or stressful content
-  - Meaningful emoji use
+  - Relevant emoji use in the output to keep the story lively
 - LLM judge evaluates each story (1–10) before showing to user
 - Automatically improves story if score < 8
-- Parent/child can request revisions (“add a dragon”, “make it sillier”)
+- User can request ANY type of revisions (“add a dragon”, “make it sillier”)
 
 
 #### Components
